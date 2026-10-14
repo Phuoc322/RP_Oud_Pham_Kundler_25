@@ -102,16 +102,6 @@ Every case also gives up to 3 stars (3 = no mistakes). After the last case you g
 
 ---
 
-## Files
-
-```
-game/
-├── game.py   the whole game in one file
-├── highscore.txt         created automatically
-├── README.md             this file
-└── konzeptbilder/        two concept drawings from the planning phase
-```
-
 ### Inside `game.py`
 
 1. **Settings**: screen size, speed, points and colours
