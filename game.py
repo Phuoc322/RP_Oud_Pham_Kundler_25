@@ -33,7 +33,7 @@ FLOOR_Y = 430
 
 # Player and scoring
 PLAYER_PURPLE = (128, 62, 196)
-PLAYER_SPEED = 230           # pixels per second
+PLAYER_SPEED = 300           # pixels per second
 PLAYER_TOP, PLAYER_BOTTOM = 448, 588
 POINTS_CLUE = 100
 POINTS_QUESTION = 10

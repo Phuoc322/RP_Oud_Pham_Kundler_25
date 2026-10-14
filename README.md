@@ -25,13 +25,13 @@ The game needs no other files, images or sounds, because everything is drawn in 
 
 ## How to start
 
-Open a terminal in the folder that contains `shadow_detective.py` and run:
+Open a terminal in the folder that contains `game.py` and run:
 
 ```bash
-python3 shadow_detective.py
+python3 game.py
 ```
 
-On Windows use `python shadow_detective.py`. You can also open the file in Thonny, IDLE or VS Code and press **Run**.
+On Windows use `python game.py`. You can also open the file in Thonny, IDLE or VS Code and press **Run**.
 
 ---
 
@@ -106,13 +106,13 @@ Every case also gives up to 3 stars (3 = no mistakes). After the last case you g
 
 ```
 game/
-├── shadow_detective.py   the whole game in one file
+├── game.py   the whole game in one file
 ├── highscore.txt         created automatically
 ├── README.md             this file
 └── konzeptbilder/        two concept drawings from the planning phase
 ```
 
-### Inside `shadow_detective.py`
+### Inside `game.py`
 
 1. **Settings**: screen size, speed, points and colours
 2. **Story data**: all five cases (`CASE_1` … `CASE_5`) with rooms, clues, suspects, dialogues, case files and obstacles
